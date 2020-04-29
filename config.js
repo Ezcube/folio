@@ -1,11 +1,11 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
-  siteTitle: 'Rolwin Reevan',
+  siteUrl: 'https://bumbl.ru',
+  siteTitle: 'Артур Гайфутдинов',
   siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  author: 'Артур Гайфутдинов',
   postsForArchivePage: 3,
-  defaultLanguage: 'en',
+  defaultLanguage: 'ru',
   pages: {
     home: '/',
     blog: 'blog',
@@ -13,13 +13,13 @@ module.exports = {
     resume: 'resume',
   },
   social: {
-    github: 'https://github.com/rolwin100',
-    facebook: 'https://www.facebook.com/rolwin.monteiro',
-    twitter: 'https://twitter.com/rolwin100',
-    instagram: 'https://www.instagram.com/reevan100/',
+    github: 'https://github.com/Ezcube',
+    facebook: 'https://www.facebook.com/gaiphutdinov',
+    twitter: 'https://twitter.com/',
+    instagram: 'https://www.instagram.com/ezcube/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/dcb6af11-46ec-439b-b9d9-3ddece9ebbc3',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   tags: {
     angular: {
