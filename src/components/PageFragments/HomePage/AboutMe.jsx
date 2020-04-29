@@ -5,16 +5,11 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some 
-    cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: `Привет, мир! Меня зовут Артур. Я веб-разработчик, увлекающийся различными веб-технологиями.
+    Этот сайт, пример, того что я люблю делать:) В настоящее время я работаю в основном с технологиями Javascript, такими как Reactjs и Nodejs.
+    Я постоянно самостоятельно обучаюсь, благодаря морю полезной информации в интернете.`,
+  paraTwo: `Помимо программирования я считаю себя довольно опытным маркетером, т.к. уже не в одной компании поднял оборот в разы, благодаря профессиональному внедрению digital маркетинга. 
+    Готов взять удаленно digital маркетинг в вашей компании при условии оплаты 50к руб. + процент с продаж`,
 };
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
@@ -22,12 +17,12 @@ const AboutMe = () => {
     <>
       <div>
         <SEO
-          title="About"
+          title="Обо мне"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Ezcube', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
-        <h1 className="titleSeparate">About Me</h1>
+        <h1 className="titleSeparate">Обо мне</h1>
         <p>
           {pageText.paraOne}
         </p>
@@ -39,40 +34,40 @@ const AboutMe = () => {
             img="location.png"
             height={60}
             alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            textH4="Родился и вырос в"
+            textH3="г. Набережные Челны, РТ, Россия"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="coffee.png"
             alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            textH4="Люблю кофе"
+            textH3="Кофе + Я = Счастье"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="meeting.png"
             alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            textH4="Интроверт"
+            textH3="Предпочитаю работать с техникой"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="motorcycle.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
+            alt="technology image"
+            textH4="Люблю технологии"
+            textH3="Будущее за ними"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="web.png"
             alt="web image"
-            textH4="Self Taught Programmer"
-            textH3="Thanks to the Web Resources"
+            textH4="Самостоятельно обученный программист"
+            textH3="Спасибо интернету"
             height={60}
             width={60}
           />
@@ -81,8 +76,8 @@ const AboutMe = () => {
           <AboutTile
             img="graduation.png"
             alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            textH4="Получил высшее образование"
+            textH3="А оно надо?"
             height={60}
             width={60}
           />
