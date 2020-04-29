@@ -9,13 +9,10 @@ const Contact = () => (
   <Layout className="outerPadding">
     <Layout className="container">
       <SEO
-        title="Contact"
-        description="Hello folks Rolwin here. You can contact me through the contact form on this page.
-                    Please feel free to contact me, don't be shy guys, just remember Rolwin is always open to talk about web
-                    technologies especially Javascript techstacks. Currently I'm a part of Gatsby organization on github.
-                    Find me on github - rolwin100."
+        title="Связаться со мной"
+        description="Привет, пишите мне, не стесняйтесь:)"
         path="/contact"
-        keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby', 'technology']}
+        keywords={['FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby', 'technology']}
       />
       <Header />
       <SidebarWrapper>
