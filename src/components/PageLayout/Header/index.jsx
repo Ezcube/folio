@@ -26,7 +26,7 @@ export default () => {
         <div className={`${style.hamburger} ${menu ? style.menuIcon : null}`}>
           <div className={style.line} />
           <div className={style.line} />
-          <div className={style.hamburgerText}>MENU</div>
+          <div className={style.hamburgerText}>МЕНЮ</div>
         </div>
       </div>
       <Layout className={`${style.navWrap} ${menu ? null : style.hidden} ${menu ? style.openMenu : null}`}>
@@ -34,22 +34,22 @@ export default () => {
           <ul className={style.nav}>
             <li className={style.navItem}>
               <Link to="/" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                About
+                Обо мне
               </Link>
             </li>
             <li className={style.navItem}>
               <Link to="/contact" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Contact
+                Связаться
               </Link>
             </li>
             <li className={style.navItem}>
               <Link to="/blog" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Blog
+                Блог
               </Link>
             </li>
             <li className={style.navItem}>
               <Link to="/resume" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Resume
+                Резюме
               </Link>
 
             </li>
