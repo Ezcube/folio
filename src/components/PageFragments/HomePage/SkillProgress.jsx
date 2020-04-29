@@ -40,7 +40,7 @@ const SkillsProgress = () => (
         />
         <ProgressBar
           percent={85}
-          text="Битркс24"
+          text="CRM Битрикс24"
         />
       </Col>
     </Row>
